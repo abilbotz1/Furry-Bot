@@ -31,18 +31,18 @@ module.exports = {
         global.img = 'https://telegra.ph/file/0c567eac403737766688f.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = '© CUTE IQ-MD'
-        global.author = 'Made By Ziv San © 2022'
+        global.packname = '© Khurushi-Md'
+        global.author = 'Made By Riel San © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Cute Bot By Ziv San © 2022'
-        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Ziv San˚'
-        global.wm2 = '© CUTE IQ-MD' + ' ' + 'By Ziv San'
-        global.wm = '© CUTE IQ-MD'
+        global.author2 = 'cute Bot By Riel San © 2022'
+        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Riel San˚'
+        global.wm2 = '© Khurushi-Md' + ' ' + 'By Riell San'
+        global.wm = '© Khurushi-Md'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'By Haori & Ziv San'
+        global.colong2 = 'By riel & cute San'
         global.kontak2 = [
-        ['16199961931', 'Ziv San', 'Creator Bot', 'Zivsan@support.com', true],
-        ['6282179137771', 'CUTE IQ-MD', 'Bot WhatsApp', 'Just Bot', true]
+        ['6282146218274', 'Riell San', 'Creator Bot', 'Rielsan@support.com', true],
+        ['6283813417529', 'Khurushi-Md', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -652,7 +652,7 @@ module.exports = {
                                 member: groupMetadata.participants.length
                             })
                             /*await this.send3TemplateButtonImg(id, action === 'add' ? wel : lea, text, wm, action === 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'FokusID')*/
-   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'Cute IQ-MD', fkontak,{
+   await conn.sendButtonDoc(id, text, wm, action == 'add' ? 'selamat datang' : 'sampai jumpa', action === 'add' ? '.intro' : 'khurushi-MD', fkontak,{
   contextInfo: {mentionedJid: [user],
     externalAdReply :{
     mediaUrl: linkyt,
