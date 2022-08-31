@@ -172,7 +172,7 @@ ${'```%npmdesc```'}
  *Official Bot By @${'0'.split('@')[0]}* 
  *Powered By @${'16199961931'.split('@')[0]}*`
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-     let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+     let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/cf555125dd767bcabaf36.png")
      let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}')) 
      let { exp, limit, age, money, level, role, registered } = global.db.data.users[m.sender] 
      let { min, xp, max } = levelling.xpRange(level, global.multiplier) 
@@ -284,7 +284,7 @@ ${'```%npmdesc```'}
     surface : 1,
     message: `Khurushi-Md By Riel San`, 
     orderTitle: `▮Menu ▸`,
-    thumbnail: await (await fetch('https://telegra.ph/file/db5b4aed0d6d2e6c10c8f.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/cf555125dd767bcabaf36.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
